@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tapet_3"
+    tools:context="com.nyuciverse.passwordmanager.init.StartManagerActivity">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/set_pin_btn"
+        android:layout_alignParentBottom="true"
+        android:layout_margin="30dp"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textSize="20sp"
+        android:text="Set a Pin"
+        android:background="@drawable/round_button"/>
+
+</RelativeLayout>
